@@ -65,6 +65,7 @@ header{
     justify-content: start;
     margin-bottom: 0px;
     position: relative;
+    background-size:0 0;
 }
 .bannar{
     width: 50%;
