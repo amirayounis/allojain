@@ -52,17 +52,13 @@ body{
 .navbar-nav{
     justify-content: space-between;
 }
-header{
-    background:linear-gradient(to right,#021223,#0B3C5E) ;   
-}
 #hero{
     background-image: url("../imgs/Rectangle\ 2.png");
     background-position: center;
     background-size: cover;
     height: 70vh;
     display:flex !important;
-   padding-right: 0px;
-    justify-content: start;
+    padding-right: 0px;
     margin-bottom: 0px;
     position: relative;
 }
@@ -72,7 +68,7 @@ header{
     height: 100%;
 }
 .bannar p{
-    font-size: 40px;
+    font-size: 3.2vw;
     font-weight: bold;
     color:#ffffff;
     text-align: center;
@@ -83,6 +79,7 @@ header{
    line-height: 10vh;
 
 }
+
 .title{
     color: #ffffff;
     padding: 10vh;
@@ -96,6 +93,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-size: cover;
 }
 .about p{
     width: 50%;
@@ -197,3 +195,54 @@ footer{
     border-radius: 2px;
     box-shadow: 0px 1px 10px #999;
   }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+   #hero{
+    padding-left: 0px;
+   }
+    .bannar{
+    width: 100%;
+   }
+   .bannar p{
+    font-size: 5vw;
+   }
+   .custom_button{
+    font-size: 5vw !important;
+   }
+   .marky{
+    display: none;
+   }
+   .about{
+    display: flex;
+    flex-direction: column;
+   }
+   .about p{
+   width: 100%;
+   }
+   .quote{
+    width: 100%;
+   }
+   .banner3{
+    display: none;
+   }
+   .cardCO{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    row-gap: 50px;
+   }
+   .customCard{
+    width: 100%;
+   }
+   #cardCO2{
+    width: 100%;
+   }
+   .footer1{
+    flex-direction: column;
+   }
+   .child{
+    width: 100%;
+    text-align: center;
+   }
+   .child ul{
+    list-style-type: none;
+   }
+}
