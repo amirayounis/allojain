@@ -1,6 +1,6 @@
 @font-face {
     font-family: cairo;
-    src: url(font/Cairo/Cairo-VariableFont_slnt\,wght.ttf);
+    src: url(../font/Cairo/Cairo-VariableFont_slnt\,wght.ttf);
 }
 *{
     font-family:cairo !important;
@@ -56,7 +56,7 @@ header{
     background:linear-gradient(to right,#021223,#0B3C5E) ;   
 }
 #hero{
-    background-image: url(../assets/Rectangle\ 2.png);
+    background-image: url(../imgs/Rectangle\ 2.png);
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -92,7 +92,7 @@ header{
 .about{
     height: fit-content;
     padding: 5vh;
-    background-image:url("../assets/Rectangle\ 6.png") ;
+    background-image:url("../imgs/Rectangle\ 6.png") ;
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
@@ -127,7 +127,7 @@ header{
  width:30%;
  padding-bottom: 10px;
  text-align: center;   
- background-image: url("../assets/Rectangle\ 11.png");
+ background-image: url("../imgs/Rectangle\ 11.png");
  background-color: #ffffff;
  background-size: cover;
  background-repeat: no-repeat;
