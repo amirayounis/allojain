@@ -56,7 +56,7 @@ header{
     background:linear-gradient(to right,#021223,#0B3C5E) ;   
 }
 #hero{
-    background-image: url(../imgs/Rectangle\ 2.png);
+    background-image: url("../imgs/Rectangle\ 2.png");
     background-position: center;
     background-size: cover;
     height: 70vh;
