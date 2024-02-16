@@ -17,24 +17,9 @@
         $('#navBar').removeClass('floatingNav');
     }
 });
-    // Simulate background image loading delay (remove this line in real use)
-    setTimeout(() => {
-        hideLoader();
-    }, 2000); // Adjust the delay time as needed
-
-    function hideLoader() {
-        document.getElementById("loader").classList.add("hidden");
-    }
-});
-function loadBG(){
-    document.getElementById("hero").style.backgroundImage="url(dist/imgs/Rectangle 2.png)";
-}
-window.onload=loadBG();
     </script>
 </head>
 <body>
-    <div class="kinetic" id="loader"></div>
-
     <nav id="navBar" class="navbar navbar-expand-lg  custom_nav">
         <div class="container">
             <li class="navbar-brand">

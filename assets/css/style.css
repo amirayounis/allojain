@@ -53,7 +53,7 @@ body{
     justify-content: space-between;
 }
 #hero{
-    
+    background-image: url("../imgs/Rectangle 2.png");
     background-position: center;
     background-size: cover;
     height: 70vh;
